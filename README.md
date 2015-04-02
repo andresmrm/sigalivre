@@ -5,11 +5,9 @@ Extrator de dados do SigaBrasil.
 
 ## Como assim?
 
-O SigaLivre basicamente é uma receita para Selenium, que é uma biblioteca para
-interagir com navegadores. Ele abre o navegador e vai clicando.
-Alterando alguns parâmetros no código do SigaLivre ele pode escolher outras
-bases ou colunas para baixar. Ele basicamente faz o que você faria clicando na
-interface do Siga, e no fim clica para baixar os dados em CSV.
+O SigaLivre basicamente é uma receita para Selenium, que é uma biblioteca para interagir com navegadores. Ele abre o navegador e vai clicando.
+Passando parâmetros para o SigaLivre ele pode escolher bases e colunas para baixar.
+Ele basicamente faz o que você faria clicando na interface do Siga, e no fim clica para baixar os dados em CSV.
 
 
 ## Como usar?
