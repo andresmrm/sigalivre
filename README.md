@@ -54,9 +54,9 @@ http://www8a.senado.gov.br/dwweb/autoLogon.html
 
 (É, eu adoro esse site...)
 
-Por quê você quer saber qual é a página do documento de "Web Intelligence"? Porque você são os nomes das bases listadas lá que você vai precisar passar para o SigaLivre para saber qual base abrir.
+Por quê você quer saber qual é a página do documento de "Web Intelligence"? Porque são os nomes das bases listadas lá que você vai precisar passar para o SigaLivre para ele saber qual base abrir.
 
-E depois escolher a base, na página seguinte, são os nomes das colunas que estão ai que você também vai precisar passar para o SigaLivre.
+E depois de escolher a base, na página seguinte, são os nomes das colunas que estão ai que você também vai precisar passar para o SigaLivre.
 Nessa segunda página ele vai digitar os nomes das colunas no campos de busca, e (acho) pegar o primeiro que for selecionado.
 
 Ok, como uso o SigaLivre?! Com um código em Python semelhante a esse:
