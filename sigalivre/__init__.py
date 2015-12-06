@@ -71,8 +71,19 @@ class SigaLivre(object):
         self.navegador.switch_to.frame('servletBridgeIframe')
         self.navegador.find_element_by_partial_link_text(
             'Página inicial').click()
+
+        # Nessa parte estamos tentando apertar o icone colorido que
+        # vai para a tela onde é possível criar um novo documento
         self.navegador.switch_to.frame('iframeHome-76525')
-        self.navegador.find_element_by_id('id_50').click()
+        # O ID mudou, por isso a linha abaixo não funcionou mais...
+        # self.navegador.find_element_by_id('id_51').click()
+        # Tentando ver pela imagem:
+        els = self.navegador.find_elements_by_class_name('CarouselItemImage')
+        for el in els:
+            if 'WebI_48x48.png' in el.get_attribute('src'):
+                el.click()
+                break
+
         self.navegador.switch_to.parent_frame()
         self.navegador.switch_to.frame(6)
         self.navegador.switch_to.frame('webiViewFrame')
