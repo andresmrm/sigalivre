@@ -64,11 +64,12 @@ class SigaLivre(object):
         print("    Site do Senado")
         a = 'http://www12.senado.gov.br/orcamento/sigabrasil'
         self.navegador.get(a)
-        # time.sleep(5)
         print("    Escolhendo base e abrindo o 'lindo' sistema de consulta de dados")
         a = 'http://www8d.senado.gov.br/dwweb/autoLogon.html'
         self.navegador.get(a)
+        time.sleep(10)
         self.navegador.switch_to.frame('servletBridgeIframe')
+        # import IPython; IPython.embed()
         self.navegador.find_element_by_partial_link_text(
             'Página inicial').click()
 
